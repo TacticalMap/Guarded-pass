@@ -1,0 +1,35 @@
+{
+  "name": "tacticalmap-p78",
+  "id": "tacticalmap-p78",
+  "title": "TM Guarded pass",
+  "description": "A small fort blocking the way between the mountains. Also a natural version of the map without walls. And also a little bit of assets.",
+  "author": "Tactical Master",
+  "authors": [],
+  "url": "https://www.patreon.com/tacticalmap",
+  "flags": {},
+  "version": "1.0",
+  "minimumCoreVersion": "0.7.5",
+  "compatibleCoreVersion": "11",
+  "scripts": [],
+  "esmodules": [],
+  "styles": [],
+  "languages": [],
+  "packs": [
+    {
+      "name": "guarded-pass",
+      "label": "TM Guarded pass",
+      "path": "packs/guarded-pass.db",
+      "type": "Scene",
+	  "entity": "Scene",
+      "module": "guarded-pass",
+      "private": false
+    }
+  ],
+  "system": [],
+  "dependencies": [],
+  "socket": false,
+  "manifest": "https://github.com/TacticalMap/Maps/blob/main/module.json",
+  "download": "https://github.com/TacticalMap/Maps/archive/refs/heads/main.zip",
+  "protected": false,
+  "coreTranslation": false
+}
